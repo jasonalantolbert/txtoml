@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "txtoml"
+version = "1.0.0"
+description = "A command-line utility that allows you to quickly and easily copy dependencies from a Poetry pyproject.toml file to a pip requirements.txt file."
+authors = ["Jason Tolbert Jr. <jasonalantolbert@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jasonalantolbert/txtoml"
+keywords = ["poetry", "pyproject", "toml", "requirements", "dependency"]
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+toml = "^0.10.2"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+txtoml = "txtoml.txtoml:txtoml"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
