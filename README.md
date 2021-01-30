@@ -1,5 +1,8 @@
 # txtoml
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/txtoml)
+![PyPI - License](https://img.shields.io/pypi/l/txtoml)
+
 A command-line utility that allows you to quickly and easily copy dependencies from a [Poetry pyproject.toml](https://python-poetry.org/docs/dependency-specification/)
 file to a pip requirements.txt file.
 
